@@ -1,0 +1,18 @@
+{
+  "license": "ISC",
+  "author": "Janiel Martell",
+  "name": "gulp-tailwind-starter",
+  "description": "This is a simple Gulp setup for using Tailwind CSS",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.1.0",
+    "autoprefixer": "^9.3.1",
+    "cssnano": "^4.1.7",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "tailwindcss": "^0.7.0"
+  },
+  "scripts": {
+    "dev": "npx gulp",
+    "prod": "npx gulp build"
+  }
+}
